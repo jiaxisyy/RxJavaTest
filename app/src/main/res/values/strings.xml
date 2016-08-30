@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RxJavaTest</string>
+    <string name="base">基本</string>
+    <string name="test_btn1">取数据先检查缓存的场景</string>
+    <string name="test_pay">支付宝功能</string>
+    <string name="btn_change_toAdaptive">跳转适配测试</string>
+</resources>

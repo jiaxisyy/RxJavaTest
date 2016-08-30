@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btn_test1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_btn1" />
+
+    <SeekBar
+        android:id="@+id/sb_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100" />
+
+    <TextView
+        android:id="@+id/tv_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_test_pay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/test_pay" />
+
+    <com.example.shuangxiang.rxjavatest.view.CustomTitleView
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        app:mTitleText="54294"
+        app:mTitleTextColor="#FF0000"
+        app:mTitleTextSize="40sp" />
+<com.example.shuangxiang.rxjavatest.view.OneTextView
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+   android:gravity="center"
+    android:text="hello android"/>
+
+</LinearLayout>

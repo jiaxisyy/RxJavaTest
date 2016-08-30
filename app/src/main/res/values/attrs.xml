@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="PieChart">
+        <attr name="mShowText" format="boolean" />
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+    <attr name="mTitleText" format="string" />
+    <attr name="mTitleTextColor" format="color" />
+    <attr name="mTitleTextSize" format="dimension" />
+    <declare-styleable name="CustomTitleView">
+        <attr name="mTitleText" />
+        <attr name="mTitleTextColor" />
+        <attr name="mTitleTextSize" />
+
+
+    </declare-styleable>
+</resources>
